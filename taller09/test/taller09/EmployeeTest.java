@@ -20,44 +20,26 @@ public class EmployeeTest {
     
     public EmployeeTest() {
     }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
-    @Before
-    public void setUp() {
-    }
-    
-    @After
-    public void tearDown() {
-    }
-
     /**
      * Test of cs method, of class Employee.
      */
     @Test
-    public void testCs() {
+    public void testCsSobreporciento() {
         System.out.println("cs");
-        Employee instance = null;
+        Employee instance = new Employee(30.5F,"USD",200F,EmployeeType.Manager);
         float expResult = 0.0F;
         float result = instance.cs();
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
      * Test of CalculateYearBonus method, of class Employee.
      */
     @Test
-    public void testCalculateYearBonus() {
+    public void testCalculateYearBonusSobreporciento() {
         System.out.println("CalculateYearBonus");
-        Employee instance = null;
+        Employee instance = new Employee(30.5F,"USD",200F,EmployeeType.Manager);
         float expResult = 0.0F;
         float result = instance.CalculateYearBonus();
         assertEquals(expResult, result, 0.0);

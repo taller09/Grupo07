@@ -58,7 +58,7 @@ public class EmployeeTypeTest {
         System.out.println("valueOf");
         String name = "";
         EmployeeType expResult = null;
-        EmployeeType result = EmployeeType.valueOf(name);
+        EmployeeType result = EmployeeType.valueOf(null);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
