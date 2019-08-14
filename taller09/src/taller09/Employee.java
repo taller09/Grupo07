@@ -13,8 +13,8 @@ import java.util.Date;
  *
  * @author CltControl
  */
-public class Taller09 {
-public enum EmployeeType { Worker, Supervisor, Manager }
+
+enum EmployeeType { Worker, Supervisor, Manager }
 
 public class Employee
 {   //remuneracion mensual unificada
@@ -87,5 +87,4 @@ public class Employee
         }
         return 0.0F;
     }
-}
 }
