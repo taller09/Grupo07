@@ -27,6 +27,7 @@ public class Employee
     //variable de tipo employeeType
     private EmployeeType employeeType;    
 
+    
     public Employee(float salary, String currency, 
         float bonusPercentage, EmployeeType employeeType){
         this.salary = salary;
